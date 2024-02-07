@@ -11,10 +11,10 @@ from telegram import Update
 from telegram.constants import ParseMode
 from telegram.ext import ContextTypes, filters
 
-from Mikobot import LOGGER, function
-from Mikobot.plugins.anime import DEFAULT_SERVICE_URLS, LANGUAGES
-from Mikobot.plugins.disable import DisableAbleCommandHandler
-from Mikobot.plugins.helper_funcs.chat_status import check_admin
+from QtRobot import LOGGER, function
+from QtRobot.plugins.anime import DEFAULT_SERVICE_URLS, LANGUAGES
+from QtRobot.plugins.disable import DisableAbleCommandHandler
+from QtRobot.plugins.helper_funcs.chat_status import check_admin
 
 # <=======================================================================================================>
 
@@ -316,7 +316,7 @@ async def totranslate(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "Reply to messages or write messages from other languages ​​for translating into the intended language\n\n"
             "Example: `/tr en-ta` to translate from English to Tamil\n"
             "Or use: `/tr ta` for automatic detection and translating it into Tamil.\n"
-            "See [List of Language Codes](https://t.me/Hydra_Updates/80) for a list of language codes.",
+            "See [List of Language Codes](https://t.me/raghavsupport) for a list of language codes.",
             parse_mode="markdown",
             disable_web_page_preview=True,
         )
