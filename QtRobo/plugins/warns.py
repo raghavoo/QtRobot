@@ -28,18 +28,18 @@ from telegram.helpers import mention_html
 
 from Database.sql import warns_sql as sql
 from Database.sql.approve_sql import is_approved
-from Mikobot import dispatcher, function
-from Mikobot.utils.can_restrict import BAN_STICKER
-from Mikobot.plugins.disable import DisableAbleCommandHandler
-from Mikobot.plugins.helper_funcs.chat_status import check_admin, is_user_admin
-from Mikobot.plugins.helper_funcs.extraction import (
+from QtRobot import dispatcher, function
+from QtRobot.utils.can_restrict import BAN_STICKER
+from QtRobot.plugins.disable import DisableAbleCommandHandler
+from QtRobot.plugins.helper_funcs.chat_status import check_admin, is_user_admin
+from QtRobot.plugins.helper_funcs.extraction import (
     extract_text,
     extract_user,
     extract_user_and_text,
 )
-from Mikobot.plugins.helper_funcs.misc import split_message
-from Mikobot.plugins.helper_funcs.string_handling import split_quotes
-from Mikobot.plugins.log_channel import loggable
+from QtRobot.plugins.helper_funcs.misc import split_message
+from QtRobot.plugins.helper_funcs.string_handling import split_quotes
+from QtRobot.plugins.log_channel import loggable
 
 # <=======================================================================================================>
 
