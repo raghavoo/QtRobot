@@ -1,6 +1,6 @@
 # Session files , logs
-Mikobot/*.session
-Mikobot/*.session-journal
+QtRobot/*.session
+QtRobot/*.session-journal
 Logs.txt
 
 # Byte-compiled / optimized / DLL files
