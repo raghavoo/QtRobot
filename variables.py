@@ -1,4 +1,4 @@
-# https://github.com/Iraghavoo
+# https://github.com/raghavoo
 
 class Config(object):
     # Configuration class for the bot
