@@ -4,9 +4,9 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.constants import ParseMode
 from telegram.ext import CallbackQueryHandler, ContextTypes
 
-from Mikobot import DEV_USERS, function
-from Mikobot.plugins.disable import DisableAbleCommandHandler
-from Mikobot.plugins.helper_funcs.chat_status import check_admin
+from QtRobot import DEV_USERS, function
+from QtRobot.plugins.disable import DisableAbleCommandHandler
+from QtRobot.plugins.helper_funcs.chat_status import check_admin
 
 # <=======================================================================================================>
 
