@@ -1,7 +1,5 @@
-# SOURCE https://github.com/Team-ProjectCodeX
-# CREATED BY https://t.me/O_okarma
-# API BY https://www.github.com/SOME-1HING
-# PROVIDED BY https://t.me/ProjectCodeX
+# SOURCE https://github.com/raghavoo
+
 
 # <============================================== IMPORTS =========================================================>
 import json
@@ -10,8 +8,8 @@ import random
 from pyrogram import Client, filters
 from pyrogram.types import InputMediaPhoto, Message
 
-from Mikobot import app
-from Mikobot.state import state
+from QtRobot import app
+from QtRobot.state import state
 
 # <=======================================================================================================>
 
