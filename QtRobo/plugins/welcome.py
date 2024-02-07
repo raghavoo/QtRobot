@@ -29,15 +29,15 @@ import Database.sql.welcome_sql as sql
 from Database.mongodb.toggle_mongo import dwelcome_off, dwelcome_on, is_dwelcome_on
 from Database.sql.global_bans_sql import is_user_gbanned
 from Infamous.temp import temp
-from Mikobot import DEV_USERS
-from Mikobot import DEV_USERS as SUDO
-from Mikobot import DRAGONS, EVENT_LOGS, LOGGER, OWNER_ID, app, dispatcher, function
-from Mikobot.plugins.helper_funcs.chat_status import check_admin, is_user_ban_protected
-from Mikobot.plugins.helper_funcs.misc import build_keyboard, revert_buttons
-from Mikobot.plugins.helper_funcs.msg_types import get_welcome_type
-from Mikobot.plugins.helper_funcs.string_handling import escape_invalid_curly_brackets
-from Mikobot.plugins.log_channel import loggable
-from Mikobot.utils.can_restrict import can_restrict
+from QtRobot import DEV_USERS
+from QtRobot import DEV_USERS as SUDO
+from QtRobot import DRAGONS, EVENT_LOGS, LOGGER, OWNER_ID, app, dispatcher, function
+from QtRobot.plugins.helper_funcs.chat_status import check_admin, is_user_ban_protected
+from QtRobot.plugins.helper_funcs.misc import build_keyboard, revert_buttons
+from QtRobot.plugins.helper_funcs.msg_types import get_welcome_type
+from QtRobot.plugins.helper_funcs.string_handling import escape_invalid_curly_brackets
+from QtRobot.plugins.log_channel import loggable
+from QtRobot.utils.can_restrict import can_restrict
 
 # <=======================================================================================================>
 
